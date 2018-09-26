@@ -9,9 +9,9 @@ enum ShapeOption: String, RawRepresentable {
 }
 
 enum Shape: String {
-    case box = "Box", sphere = "Sphere", cylinder = "Cylinder", cone = "Cone", torus = "Torus"
+    case box = "Box", sphere = "Sphere", cylinder = "Cylinder", cone = "Cone", pyramid = "Pyramid", torus = "Torus"
 }
 
 enum Size: String {
-    case small = "Small", medium = "Medium", large = "Large"
+    case extraSmall = "Extra Small", small = "Small", medium = "Medium", large = "Large", extraLarge = "Extra Large"
 }
