@@ -223,5 +223,6 @@ extension ViewController: OptionsViewControllerDelegate {
     
     func resetScene() {
         dismiss(animated: true, completion: nil)
+        
     }
 }
