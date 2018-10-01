@@ -223,6 +223,8 @@ extension ViewController: OptionsViewControllerDelegate {
     
     func resetScene() {
         dismiss(animated: true, completion: nil)
-        
+        sceneView.scene.rootNode.enumerateChildNodes { (node, stop) in
+            node.removeFromParentNode()
+        }
     }
 }
